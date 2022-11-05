@@ -2,7 +2,7 @@ import java.text.MessageFormat;
 
 public class Main {
     public static void main(String[] args) {
-        EmployeeMet employeeCreate = new EmployeeMet(10);
+        employeeMet employeeCreate = new employeeMet(10);
         employeeCreate.addEmployeeMet("Ivanov Ivan Ivanovich", 1, 29_000);
         employeeCreate.addEmployeeMet("Ezenshtein Chritofor Svetoforovich", 3, 28_000);
         employeeCreate.addEmployeeMet("Nizshe Fridrich Ubermenovich", 5, 22_000);
